@@ -1,4 +1,4 @@
-### pndaboi.is-a.dev/cope
+### https://pndaboi.is-a.dev/cope
 
 <p align='center'>
   <b>🎨 Follow me here 🎨</b><br>  
