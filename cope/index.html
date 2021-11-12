@@ -19,8 +19,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
 
 </head>
+    
 <body>
-
+    <audio controls hidden loop>
+        <source src="assets/audio/song.mp3" type="audio/mpeg">
+    </audio>
+    
     <header>
         <nav>
             <div class="header_logo">
@@ -47,6 +51,12 @@
             <li><a target="_blank" href="https://github.com/All-Names-Are-Taken-So-Cope-Harder"><i class="fab fa-github"></i></a></li>
         </ul>
     </section>
-
+    <script>
+    // var CTE = {};
+    CTE.callback = () => {
+      var aud = document.getElementsByTagName("audio")[0];
+      aud.volume = .3;
+      aud.play();
+    }
 </body>
 </html>
