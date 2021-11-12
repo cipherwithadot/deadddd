@@ -57,6 +57,26 @@
       var aud = document.getElementsByTagName("audio")[0];
       aud.volume = .3;
       aud.play();
+    
+      var typed = new Typed("#typing", {
+        strings: ["Being A Pogger Since 2020!", "Learning New Things At A Incredible Rate!", "Very POG Staff~", "Vibin' Like Always!", "Prolly Busy :P", "Add Me As A Friend!", "Varesh | PndaBoi!#9890 | PndaBoi!#3767"],
+        typeSpeed: 50,
+        backspeed: 30,
+        showCursor: false
+      });
+
+      var lines = ["replit.com/@pndaboi", "github.com/pndaboi", "twitch.tv/pndaboihax", "Discord: PndaBoi!#3767 | Varesh | PndaBoi!#9890","Also On Many Other Platforms!"];
+      for (var x = 0;x < lines.length;x++)
+        $("#marquee").append(`${lines[x]}${(x < lines.length - 1? ' <img class="emoji" src="assets/images/seperator.png"> ' : '')}`);
+
+      $("#marquee").marquee({
+        duration: 7500,
+        gap: 100,
+        delayBeforeStart: 1000,
+        direction: 'left',
+      });
     }
+    // CTE.callback();
+  </script>
 </body>
 </html>
