@@ -1,7 +1,7 @@
 <?php
-$secret_key = "KEYGOESHERE"; //Set this as your secret key, to prevent others uploading to your server.
+$secret_key = "sussybaka123"; //Set this as your secret key, to prevent others uploading to your server.
 $sharexdir = "images/"; //This is your file dir, also the link..
-$domain_url = 'http://ss.yourdomain.com/'; //Add an S at the end of HTTP if you have a SSL certificate.
+$domain_url = 'https://pndaboi.is-a.dev/'; //Add an S at the end of HTTP if you have a SSL certificate.
 $lengthofstring = 5; //Length of the file name
 
 function RandomString($length) {
